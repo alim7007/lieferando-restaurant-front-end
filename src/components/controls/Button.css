@@ -1,0 +1,141 @@
+:root{
+    --primary: rgb(245, 245, 245);
+    --dark: #242424 ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    padding: 8px 25px ;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    cursor: pointer;
+}
+
+.btn--primary{
+    background-color: var(--primary);
+    color: var(--dark);
+    border: 1px solid var(--primary);
+}
+
+.btn--outline{
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 25px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.btn--medium{
+    width: 130px;
+    padding: 8px 25px;
+    font-size: 20px;
+}
+
+.btn--large{
+    width: 170px;
+    padding: 8px 25px;
+    font-size: 20px;
+}
+
+.btn--outline:hover {
+    background: #fff;
+    color:var(--dark);
+    transition: all 0.3s ease-out;
+}
+
+.btn--primary:hover {
+    background: #fff;
+    color: var(--dark);
+    border-color:  #fff;
+    transition: all 0.3s ease-out;
+}
+
+.heroBtnsSpec{
+    min-height: 70px;
+}
+
+
+.icon{
+    padding-left: 10px;
+    padding-top: 4px;
+ }
+
+ .btn--outline-dark{
+    width: 180px;
+    background-color: transparent;
+    color: var(--dark);
+    padding: 8px 25px;
+    border: 1px solid var(--dark);
+    transition: all 0.3s ease-out;
+}
+
+.btn--outline-dark:hover {
+    background: var(--dark);
+    color:#fff;
+    transition: all 0.3s ease-out;
+}
+
+.cardBtn{
+    opacity: 0;
+    transform: translateY(-25%);
+    padding: 3px 25px;
+}
+
+ @media screen and (max-width: 960px) {
+    .icon{
+       display: none;
+    }
+    .btn{
+        width: 90%;
+    }
+      }
+    
+@media screen and (max-width: 768px) {
+.heroBtnsSpec{
+    min-height: 20px;
+}
+.icon{
+   display: none;
+}
+.btn{
+    width: 90%;
+}
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

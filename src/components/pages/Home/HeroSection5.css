@@ -1,0 +1,84 @@
+.hero5{
+    background: #f3f3f3;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .top-wrap{
+    position:absolute;
+    top:-5%;
+    width: 100%;
+    height: 100px;
+    transform: rotate(180deg);
+  }
+  
+  .hero5 .top1{
+    position: absolute;
+    left:-10%;
+    bottom: -30%;
+    width: 100%;
+    height: 100px;
+    transform: rotate(5deg);
+    background-color:#242222;
+  }
+  .hero5 .top2{
+    position: absolute;
+    right:-10%;
+    bottom: -30%;
+    width: 60%;
+    height: 100px;
+    transform: rotate(-5deg);
+    background-color:#242222;
+  }
+
+  .hero-container5{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 1500px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    object-fit: contain;
+  }
+
+.help-wrap{
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .hero5-help{
+    width: 300px;
+    height: 300px;
+    margin:1px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .help-img{
+      width: 120px;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .help-img img {
+      width: 100%;
+      height: 100%;
+  }
+
